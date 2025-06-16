@@ -1,0 +1,73 @@
+body img {
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+  max-width: 1200px; /* limite la largeur max si tu veux */
+  display: block;
+  margin: 0 auto; /* centre l’image horizontalement */
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+#footer { 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  background-color: blue; 
+  border-top: 1px solid #ccc;
+  color: white;
+}
+
+/* Bouton retour */
+.retour a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  border: 5px solid #ccc;
+  border-radius: 2px;
+  background-color: red;
+  color: black;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+.retour a:hover {
+  background-color: darkred;
+  color: white;
+}
+
+/* Responsive - Tablette */
+@media screen and (max-width: 768px) {
+  body img {
+    height: 350px;
+    max-width: 90%;
+  }
+
+  .retour a {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
+
+/* Responsive - Mobile */
+@media screen and (max-width: 480px) {
+  body img {
+    height: 250px;
+    max-width: 95%;
+  }
+
+  .retour a {
+    width: 95%;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

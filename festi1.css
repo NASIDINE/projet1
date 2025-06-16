@@ -1,0 +1,36 @@
+.retour a {
+text-decoration:none;
+padding: 10px 20px;
+font-weight: bold;
+    font-style: italic;
+text-valign:top;
+text-align:left;
+border: 2px solid #ccc;
+  border-radius: 2px;
+background-color  :red;
+color:black;
+border-width:5px;
+}
+body img{
+      width:25%;
+      height: 200px; 
+    object-fit: cover; 
+     margin:30px
+}
+h2{
+  display:online;
+ text-align:center;
+ 
+}
+p {
+  text-align:center;
+
+
+}
+#footer { 
+text-align: center; 
+margin-top: 20px; 
+padding: 10px; 
+background-color: blue; 
+border-top: 1px solid #ccc; 
+}

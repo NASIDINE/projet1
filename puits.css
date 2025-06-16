@@ -1,0 +1,16 @@
+ h2{
+font-style:italic;
+text-align:center;
+}
+body img{
+ height:800px;
+width:100%;
+object-fit:cover;
+margin-bottom:30px;
+}
+h3{
+margin-left:10px;
+}
+h2{
+text-align:center;
+}

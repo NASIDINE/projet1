@@ -1,0 +1,67 @@
+h2 {
+  text-align: center;
+}
+
+/* Images adaptables */
+body img {
+  height: auto;
+  width: 50%;
+  object-fit: contain;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Pied de page */
+#footer { 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  background-color: blue; 
+  border-top: 1px solid #ccc; 
+  color: white;
+}
+
+/* Bouton retour */
+.retour a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* ✅ Responsive : tablettes */
+@media screen and (max-width: 768px) {
+  body img {
+    width: 80%;
+  }
+
+  .retour a {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+/* ✅ Responsive : téléphones */
+@media screen and (max-width: 480px) {
+  body img {
+    width: 95%;
+  }
+
+  #footer {
+    font-size: 14px;
+  }
+
+  .retour a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

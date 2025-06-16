@@ -1,0 +1,47 @@
+.retour a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  border: 5px solid #ccc; /* border-width intégré */
+  border-radius: 2px;
+  background-color: red;
+  color: black;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+}
+#footer { 
+text-align: center; 
+margin-top: 20px; 
+padding: 10px; 
+background-color: blue; 
+border-top: 1px solid #ccc; 
+}
+
+/* Effet au survol */
+.retour a:hover {
+  background-color: darkred;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .retour a {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .retour a {
+    width: 95%;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

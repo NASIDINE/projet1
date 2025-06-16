@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+
+body img {
+  display: inline-block;
+  margin: 10px;
+  height: 400px;
+  width: 30%; /* 3 par ligne avec marge */
+  object-fit: contain;
+  vertical-align: top;
+}
+#footer { 
+text-align: center; 
+margin-top: 20px; 
+padding: 10px; 
+background-color: blue; 
+border-top: 1px solid #ccc; 
+}
